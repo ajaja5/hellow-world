@@ -13,7 +13,7 @@
 <table>
 	<tr height="30">
 	<td bgcolor="pink" align="center">NUM</td>
-	<td colspan="5">${board.b_num}</td>
+	<td colspan="5">${board.b_num}</td>test
 	</tr>
 	<tr height="30">
 	<td bgcolor="pink" align="center">WRITER</td>
