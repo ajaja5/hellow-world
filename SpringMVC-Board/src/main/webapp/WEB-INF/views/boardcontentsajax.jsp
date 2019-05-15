@@ -17,7 +17,7 @@
 	<td colspan="5">${board.b_num}</td>testsssssssssssssssssss222222
 =======
 	<td colspan="5">${board.b_num}</td>testsssssssss
->>>>>>> 80e2486a14650f530bbe0f8a71bcbd0cee0be190
+>>>>>>> 80e2486a14650f530bbe0f8a71bcbd0cee0be190 이거바로나오나?
 	</tr>
 	<tr height="30">
 	<td bgcolor="pink" align="center">WRITER</td>
