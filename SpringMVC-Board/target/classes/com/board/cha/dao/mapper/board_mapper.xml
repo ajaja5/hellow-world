@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.board.cha.dao.IBoardDao">
+<select id="getBoardList" parameterType="Integer" resultType="board">
+<![CDATA[
+	SELECT *FROM BLIST_1 WHERE RONUM>=#{num}*10-9 AND
+	RONUM<=#{num}*10
+	]]>
+</select>
+<select id="getContents" parameterType="int" resultType="board">
+SELECT * FROM BLIST_1 WHERE B_NUM=#{b_num}
+</select>
+
+<select id="getReplyList" parameterType="int" resultType="reply">
+SELECT * FROM RLIST WHERE R_BNUM=#{b_num}
+</select>
+
+</mapper>
+  
